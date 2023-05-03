@@ -2,12 +2,7 @@
 <head>
 </head>
  
- <style>
-  #particles-js {
- 
-  background-color: #f5f1f1;
 
- </style>
 
 <script type="text/javascript" src="https://otpless.com/auth.js"></script>
 <!-- Get user's whatsapp number and name -->
@@ -22,9 +17,21 @@
  const usedetails = JSON.parse(JSON.stringify(otplessUser));
 
         document.getElementById('otpless').innerHTML = `
-      Hi, <h2>${usedetails.waName}</h2>
-        Your Mobile Number :, <h2>${usedetails.waNumber}</h2>
-        Email : <p>${usedetails.email.email}</p> `;
+     Once upon a time, there was a young man named <strong>${usedetails.waName}</strong> who was passionate about pursuing his dreams. He had a mobile number <strong>${usedetails.waNumber}</strong> where he was always available to connect with new people.
+
+One day, while checking his email, <strong>${usedetails.waName}</strong> received an offer for a job interview from a prestigious company. He was excited but also nervous as the interview was scheduled in just a few hours.
+
+As <strong>${usedetails.waName}</strong> was getting ready for the interview, he checked his watch and realized that he was running late. He quickly gathered his things, took a deep breath, and headed out the door.
+
+Despite being in a hurry, <strong>${usedetails.waName}</strong> managed to arrive just in time for the interview. He answered all the questions confidently, impressing the interviewer with his knowledge and expertise.
+
+After the interview, <strong>${usedetails.waName}</strong> headed back home, feeling hopeful about his chances of getting the job. He checked his phone and saw that he had missed a few calls and messages, including one from his best friend.
+
+He quickly called his friend back, and they chatted for a few minutes, catching up on each other's lives. It was a nice distraction from the stress of the interview, and it helped <strong>${usedetails.waName}</strong> relax a bit.
+
+Later that day, <strong>${usedetails.waName}</strong> received an email from the company, offering him the job. He was thrilled and grateful for the opportunity, and he knew that his hard work and dedication had paid off.
+
+As he looked at his phone, he saw that the timestamp was <strong>${usedetails.timestamp}</strong> and the timezone was <strong>${usedetails.timezone}</strong>. He smiled, realizing that this was a day he would always remember, a day that marked the beginning of a new chapter in his life. `;
 
   }
 </script>
@@ -38,3 +45,9 @@
 </html>
 
 
+<!--  <style>
+  #particles-js {
+ 
+  background-color: #f5f1f1;
+
+ </style> -->
